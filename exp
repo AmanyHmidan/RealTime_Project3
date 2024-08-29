@@ -1,0 +1,197 @@
+num_of_medicines = 200
+num_of_Liquid_lines = 2
+num_of_Pills_lines = 2
+max_failures_rang = 40
+min_failures_rang = 10
+max_failuresType = 8
+min_failuresType = 1
+threshold_liquid_produced = 30
+threshold_pills_produced = 70
+threshold_bottled_out = 30
+threshold_pill_based_out = 30
+threshold_pill_based_out = 30
+simulation_time = 180
+min_Generate_period = 3
+max_Generate_period = 7
+min_package_period = 3
+max_package_period = 7
+THRESHOLD_RATIO = 0.500000
+period for generating line 1 is 3
+liquid line 1 generated medicine with ID 1
+Employee 1 from line 1 handled medicine with ID 1: Antibiotic Suspension (Accepted)
+period for packaging line 1 is 4
+period for generating line 2 is 7
+liquid line 2 generated medicine with ID 1
+Employee 2 from line 1 handled medicine with ID 1: Vitamin Syrup (Accepted)
+period for packaging line 2 is 6
+num_generated from liquid line 1 is 1
+liquid line 1 generated medicine with ID 2
+num_generated from liquid line 1 is 2
+liquid line 1 generated medicine with ID 3
+num_generated from liquid line 1 is 3
+liquid line 1 generated medicine with ID 4
+num_generated from liquid line 2 is 1
+liquid line 2 generated medicine with ID 2
+num_generated from liquid line 1 is 4
+liquid line 1 generated medicine with ID 5
+num_generated from liquid line 1 is 5
+liquid line 1 generated medicine with ID 6
+num_generated from liquid line 2 is 2
+liquid line 2 generated medicine with ID 3
+num_generated from liquid line 1 is 6
+liquid line 1 generated medicine with ID 7
+num_generated from liquid line 1 is 7
+num_packaged from liquid line 1 is 1
+Employee 1 packaged and added Prescription to medicine with ID 1: Antibiotic Suspension
+liquid line 1 generated medicine with ID 8
+Employee 1 from line 2 handled medicine with ID 2: Vitamin Syrup (Accepted)
+period for packaging line 1 is 7
+num_generated from liquid line 2 is 3
+liquid line 2 generated medicine with ID 4
+Line 1: Generated: 7, Packaged: 1, Ratio: 0.14
+Line 1 needs additional packaging employees!
+other line is also slow
+num_generated from liquid line 1 is 8
+liquid line 1 generated medicine with ID 9
+num_generated from liquid line 1 is 9
+liquid line 1 generated medicine with ID 10
+num_generated from liquid line 2 is 4
+liquid line 2 generated medicine with ID 5
+num_generated from liquid line 1 is 10
+liquid line 1 generated medicine with ID 11
+num_generated from liquid line 1 is 11
+liquid line 1 generated medicine with ID 12
+Line 1: Generated: 11, Packaged: 1, Ratio: 0.09
+Line 1 needs additional packaging employees!
+other line is also slow
+num_generated from liquid line 1 is 12
+liquid line 1 generated medicine with ID 13
+num_generated from liquid line 2 is 5
+num_packaged from liquid line 2 is 1
+Employee 1 packaged and added Prescription to medicine with ID 1: Vitamin Syrup
+liquid line 2 generated medicine with ID 6
+Employee 2 from line 2 handled medicine with ID 2: Pain Relief Liquid (Accepted)
+period for packaging line 2 is 6
+Line 2: Generated: 5, Packaged: 1, Ratio: 0.20
+Line 2 needs additional packaging employees!
+other line is also slow
+num_generated from liquid line 1 is 13
+liquid line 1 generated medicine with ID 14
+num_generated from liquid line 1 is 14
+num_packaged from liquid line 1 is 2
+Employee 2 packaged and added Prescription to medicine with ID 2: Vitamin Syrup
+Employee 1 from line 3 handled medicine with ID 3: Antibiotic Suspension (Accepted)
+period for packaging line 1 is 3
+liquid line 1 generated medicine with ID 15
+Employee 2 handled medicine with ID 15: Antibiotic Suspension (Rejected)
+Line 1: Generated: 14, Packaged: 2, Ratio: 0.14
+Line 1 needs additional packaging employees!
+other line is also slow
+num_generated from liquid line 2 is 6
+num_packaged from liquid line 2 is 2
+Employee 2 packaged and added Prescription to medicine with ID 2: Pain Relief Liquid
+Employee 2 from line 3 handled medicine with ID 3: Cough Syrup (Accepted)
+period for packaging line 2 is 4
+liquid line 2 generated medicine with ID 7
+Employee 2 handled medicine with ID 7: Vitamin Syrup (Rejected)
+num_generated from liquid line 1 is 15
+num_rejected from liquid line 1 is 1
+num_packaged from liquid line 1 is 3
+Employee 3 packaged and added Prescription to medicine with ID 3: Antibiotic Suspension
+Employee 1 from line 4 handled medicine with ID 4: Antibiotic Suspension (Accepted)
+period for packaging line 1 is 4
+liquid line 1 generated medicine with ID 16
+Employee 2 handled medicine with ID 14: Pain Relief Liquid (Rejected)
+num_generated from liquid line 1 is 16
+num_rejected from liquid line 1 is 2
+liquid line 1 generated medicine with ID 17
+Line 2: Generated: 6, Packaged: 2, Ratio: 0.33
+Line 2 needs additional packaging employees!
+other line is also slow
+num_generated from liquid line 2 is 7
+num_rejected from liquid line 2 is 1
+num_packaged from liquid line 2 is 3
+Employee 3 packaged and added Prescription to medicine with ID 3: Cough Syrup
+liquid line 2 generated medicine with ID 8
+Employee 2 from line 4 handled medicine with ID 4: Pain Relief Liquid (Accepted)
+period for packaging line 2 is 4
+num_generated from liquid line 1 is 17
+num_packaged from liquid line 1 is 4
+Employee 4 packaged and added Prescription to medicine with ID 4: Antibiotic Suspension
+liquid line 1 generated medicine with ID 18
+Employee 1 from line 1 handled medicine with ID 8: Antibiotic Suspension (Accepted)
+period for packaging line 1 is 4
+Employee 3 handled medicine with ID 8: Antibiotic Suspension (Rejected)
+Employee 4 handled medicine with ID 18: Antacid Liquid (Rejected)
+Line 1: Generated: 17, Packaged: 4, Ratio: 0.24
+Line 1 needs additional packaging employees!
+other line is also slow
+num_generated from liquid line 1 is 18
+num_rejected from liquid line 1 is 3
+liquid line 1 generated medicine with ID 19
+num_generated from liquid line 1 is 19
+liquid line 1 generated medicine with ID 20
+num_generated from liquid line 2 is 8
+num_rejected from liquid line 2 is 2
+liquid line 2 generated medicine with ID 9
+num_packaged from liquid line 2 is 4
+Employee 4 packaged and added Prescription to medicine with ID 4: Pain Relief Liquid
+Employee 2 from line 1 handled medicine with ID 6: Cough Syrup (Accepted)
+period for packaging line 2 is 6
+num_generated from liquid line 1 is 20
+liquid line 1 generated medicine with ID 21
+num_generated from liquid line 1 is 21
+liquid line 1 generated medicine with ID 22
+Line 1: Generated: 21, Packaged: 4, Ratio: 0.19
+Line 1 needs additional packaging employees!
+Received SIGUSR2 for removing an employee
+Removed employee 4 from line 2, total employees: 3
+Moved an employee from line 2 to line 1
+Received SIGUSR1 for adding an employee
+Added a new employee to line 1, total employees: 5
+num_generated from liquid line 2 is 9
+num_packaged from liquid line 2 is 5
+Employee 1 packaged and added Prescription to medicine with ID 6: Cough Syrup
+Employee 2 from line 2 handled medicine with ID 5: Antibiotic Suspension (Accepted)
+period for packaging line 2 is 6
+num_generated from liquid line 1 is 22
+liquid line 1 generated medicine with ID 23
+Ending simulation : number of generated liquid (bottled) medicines exceeds a user defined threshold
+Terminating all child processes...
+Sent SIGTERM to child PID 3066
+Sent SIGTERM to child PID 3071
+Sent SIGTERM to child PID 3077
+Sent SIGTERM to child PID 3078
+Sent SIGTERM to child PID 3079
+num_generated from liquid line 1 is 23
+num_packaged from liquid line 1 is 5
+Employee 1 packaged and added Prescription to medicine with ID 8: Antibiotic Suspension
+Employee 1 from line 3 handled medicine with ID 16: Cough Syrup (Accepted)
+period for packaging line 1 is 3
+Employee 1 is exiting.
+num_packaged from liquid line 1 is 6
+Employee 3 packaged and added Prescription to medicine with ID 16: Cough Syrup
+Employee 1 from line 2 handled medicine with ID 17: Antibiotic Suspension (Accepted)
+period for packaging line 1 is 7
+num_packaged from liquid line 2 is 6
+Employee 2 packaged and added Prescription to medicine with ID 5: Antibiotic Suspension
+Employee 2 from line 3 handled medicine with ID 9: Antacid Liquid (Accepted)
+period for packaging line 2 is 4
+Employee 3 is exiting.
+Employee 2 is exiting.
+num_packaged from liquid line 2 is 7
+Employee 3 packaged and added Prescription to medicine with ID 9: Antacid Liquid
+Employee 3 is exiting.
+num_packaged from liquid line 1 is 7
+Employee 2 packaged and added Prescription to medicine with ID 17: Antibiotic Suspension
+Employee 1 from line 4 handled medicine with ID 19: Cough Syrup (Accepted)
+period for packaging line 1 is 4
+Employee 2 is exiting.
+num_packaged from liquid line 1 is 8
+Employee 4 packaged and added Prescription to medicine with ID 19: Cough Syrup
+Employee 1 from line 5 handled medicine with ID 22: Antacid Liquid (Accepted)
+period for packaging line 1 is 5
+Employee 4 is exiting.
+
+
+
